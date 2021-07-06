@@ -941,7 +941,7 @@ export default class VideoPlayer extends Component {
    * Renders an empty control, used to disable a control without breaking the view layout.
    */
   renderNullControl() {
-    return <View style={[styles.controls.control]} />;
+    return <View />;
   }
 
   /**
